@@ -1,4 +1,4 @@
-# ToolNest — Phase 1
+# Toolora — Phase 1
 
 A beginner-friendly static website built with HTML, CSS, and vanilla JavaScript. It has no server, account system, API key, build step, or package installation.
 
@@ -15,6 +15,7 @@ For a local web server, open a terminal in this folder and run `python -m http.s
 - `index.html` — homepage, tool forms, and CDN library references
 - `styles.css` — responsive layout and visual styles
 - `app.js` — browser-side tool behavior
+- `toolora-logo.svg` — the Toolora logo in editable vector format
 
 ## Included tools
 
@@ -30,8 +31,8 @@ For a local web server, open a terminal in this folder and run `python -m http.s
 - Image formats depend on browser decoding and canvas encoding support. Animated images become a still image. JPG has no transparency, so transparent pixels are filled white. Image processing happens in memory and very large dimensions may exceed browser memory limits.
 - Invoice PDFs use [jsPDF](https://parall.ax/products/jspdf). This starter uses a simple layout and does not provide tax or accounting advice.
 - QR generation uses [QRCode.js](https://github.com/davidshimjs/qrcodejs). Wi-Fi passwords and QR contents are processed in the page; anyone who scans a Wi-Fi QR can read its credentials. Use care before sharing it.
-- The libraries and web font are loaded from third-party CDNs. They need internet access. No API keys are needed. CDN availability and their URLs are outside ToolNest’s control; to run fully offline, download compatible library files and update the script references.
-- Client-side processing means the chosen files are not sent to a ToolNest backend. Your browser, extensions, or device can still have their own data and security behavior.
+- The libraries and web font are loaded from third-party CDNs. They need internet access. No API keys are needed. CDN availability and their URLs are outside Toolora’s control; to run fully offline, download compatible library files and update the script references.
+- Client-side processing means the chosen files are not sent to a Toolora backend. Your browser, extensions, or device can still have their own data and security behavior.
 
 ## Change the project
 
